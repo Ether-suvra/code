@@ -16,6 +16,7 @@ public class Main {
        // printing the array
         System.out.println("After selection sort:");
         System.out.println(Arrays.toString(arr));
+        selectionSort(arr);
     }
 
     public static void selectionSort(int[] arr) {
